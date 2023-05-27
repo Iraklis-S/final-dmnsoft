@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+.huge-container{
+    display: flex;
+}
+
+.large-part1{
+    width: 16.5%;
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.large-part1 >div {
+    color: white;
+    min-height: 30px;
+    margin: 10px ;
+    text-align: center  ;
+    border: 2px solid white;
+}
+
+.large-part2{
+    width: 83.5%;
+    background-color: rgb(233, 218, 218);
+    display: flex;
+    flex-direction: column;
+}
+
+.parts{
+    border-top: 2px solid black;
+}
+.parts1{
+    display: flex;
+    justify-content: center;
+}
+.p1-split1{
+    border-right: 2px solid red;
+}
+.p1-split1,.p1-split2{
+    width: 50%;
+    text-align: center;
+    height: 4vh;
+    align-items: center;
+   
+    font-size: 1rem;
+}
+
+.parts2{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.parts2 >div{
+    margin:10px;
+    height: 100px;
+    width: 25%;
+    
+    border: 1.5px  dashed black ;
+}
+
+.parts3{
+    height: 22vh;
+    display: flex;
+}
+.p3-split1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-right: 2px solid red;
+}
+.p3-split1-separated1{
+    border-bottom: 2px solid red;
+    height: 30%;
+}
+
+.p3-split2{
+width: 50%;
+display: flex;
+flex-direction: column;
+
+}
+
+
+.p3-split2 > div {
+height: 33%;
+}
+
+.parts4{
+    text-align: center;
+}
